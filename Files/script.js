@@ -45,7 +45,7 @@ document.querySelector('.check').addEventListener('click', () => {
       document.querySelector('.score').textContent = 0;
     }
   }
-);
+});
 
 document.querySelector('.again').addEventListener('click', () => {
   score = 20;
@@ -60,4 +60,3 @@ document.querySelector('.again').addEventListener('click', () => {
   document.querySelector('body').style.backgroundColor = '#222';
   document.querySelector('.number').style.width = '15rem';
 });
-  
